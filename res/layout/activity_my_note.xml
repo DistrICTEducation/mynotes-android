@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MyNoteActivity" >
+	
+	<EditText
+        android:id="@+id/edit_mynote_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/mynote_title" />
+
+	<EditText
+	    android:id="@+id/edit_mynote_text"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:ems="10"
+	    android:hint="@string/mynote_text"
+	    android:inputType="textMultiLine" />
+
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+		<Button
+		    android:id="@+id/button_update"
+		    style="@style/AppBaseTheme"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="15dp"
+		    android:onClick="updateMyNote"
+		    android:text="@string/save" />
+
+		<Button
+		    android:id="@+id/button_delete"
+		    style="@style/AppBaseTheme"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginBottom="15dp"
+		    android:layout_marginLeft="15dp"
+		    android:onClick="deleteMyNote"
+		    android:text="@string/delete" />
+
+		<Button
+		    android:id="@+id/button_cancel_operation"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/cancel"
+		    android:layout_marginLeft="15dp"
+		    android:onClick="cancelOperation" />
+		
+	</LinearLayout>
+
+</LinearLayout>

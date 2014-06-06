@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyNotes</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="new_mynote">New MyNote</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="search">Search</string>
+    <string name="title_activity_my_note">MyNoteActivity</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_create_new_my_note">CreateNewMyNoteActivity</string>
+    <string name="mynote_title">Title</string>
+    <string name="mynote_text">Text</string>
+
+</resources>
